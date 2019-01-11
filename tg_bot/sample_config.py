@@ -18,7 +18,9 @@ class Config(object):
     SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     LOAD = []
-    NO_LOAD = ['translation', 'rss']
+    NO_LOAD = ['translation', 'rss', 'sed']
+    # sed has been disabled after the discovery that certain long-running sed commands maxed out cpu usage
+    # and killed the bot. Be careful re-enabling it!
     WEBHOOK = False
     URL = None
 
