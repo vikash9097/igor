@@ -149,16 +149,9 @@ This allows you to connect to a chat's database, and add things to it without th
 
 Actions are available with connected groups:
  • View and edit notes
- • View and edit filters
- • View and edit blacklists
- • Promote/demote users
- • See adminlist, see invitelink
- • Disable/enable commands in chat
- • Mute/unmute users in chat
- • Restrict/unrestrict users in chat
  • More in future!
 
- - /connection <chatid>: Connect to remote chat
+ - /connect <chatid>: Connect to remote chat
  - /disconnect: Disconnect from chat
  - /allowconnect on/yes/off/no: Allow connect users to group
 
