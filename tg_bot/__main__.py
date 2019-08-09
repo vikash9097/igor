@@ -19,13 +19,12 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hi {}, my name is {}! If you have any questions on how to use me, read /help - and then head to @Androidbotsupport.
+Hi {}, my name is {}! If you have any questions on how to use me, read /help .
 
 I'm a group manager bot maintained by [this person](tg://user?id={}). I'm built in python3, using the \
-python-telegram-bot library, and am fully opensource - you can find what makes me tick \
-[here](github.com/bronderb/igor)!
+python-telegram-bot library!
 
-Feel free to submit pull requests on github, or to contact my support group, @Androidbotsupport, with any bugs, questions \
+Feel free to submit pull requests on github, or to contact my support group, @technobuzznet, with any bugs, questions \
 or feature requests you might have :)
 You can find the list of available commands with /help.
 
@@ -50,7 +49,7 @@ the things I can help you with.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-DONATE_STRING = """Heya, glad to hear you want to donate! My owner is not currently accepting donations but you can always help support the wounded warriors project at https://www.woundedwarriorproject.org/."""
+DONATE_STRING = """Heya, glad to hear you want to donate! My owner is not currently accepting donations."""
 
 IMPORTED = {}
 MIGRATEABLE = []
